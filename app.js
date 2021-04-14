@@ -7,8 +7,6 @@ var logger = require('morgan');
 let url = 'wss://cricketrunlive.com:33001';
 
 const WebSocket = require('ws');
-
-// const connection = new WebSocket(url);
 const ws = new WebSocket(url);
 console.log('ws', ws);
 
